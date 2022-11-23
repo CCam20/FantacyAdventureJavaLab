@@ -1,9 +1,11 @@
 package Spellcaster;
 
+import Behaviours.Spells;
+
 import java.util.HashMap;
 
 public class Wizard extends SpellCaster{
-    public Wizard(String spells, double health, double armor, HashMap<String, Integer> inventory) {
+    public Wizard(Spells spells, double health, double armor, HashMap<String, Integer> inventory) {
         super(spells, health, armor, inventory);
     }
 
@@ -14,6 +16,11 @@ public class Wizard extends SpellCaster{
 
     @Override
     public int takeDamage() {
+        return 0;
+    }
+
+    @Override
+    public int attack() {
         return 0;
     }
 }

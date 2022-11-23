@@ -1,9 +1,11 @@
 package Melee;
 
+import Behaviours.Weapons;
+
 import java.util.HashMap;
 
 public class Barbarian extends Melee{
-    public Barbarian(String weapons, double health, double armor, HashMap<String, Integer> inventory) {
+    public Barbarian(Weapons weapons, double health, double armor, HashMap<String, Integer> inventory) {
         super(weapons, health, armor, inventory);
     }
 
@@ -15,5 +17,10 @@ public class Barbarian extends Melee{
     @Override
     public int takeDamage() {
         return 0;
+    }
+
+    @Override
+    public int attack() {
+        return getWeapons().getDamage();
     }
 }

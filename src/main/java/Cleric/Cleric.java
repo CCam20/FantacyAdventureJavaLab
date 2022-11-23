@@ -1,10 +1,12 @@
 package Cleric;
 
+import Behaviours.IAttack;
 import Behaviours.IHealth;
+import Behaviours.IPlayer;
 
 import java.util.HashMap;
 
-public class Cleric implements IHealth {
+public class Cleric implements IHealth, IAttack, IPlayer {
 
     private String healingTools;
     private double health;
@@ -26,6 +28,11 @@ public class Cleric implements IHealth {
 
     @Override
     public int takeDamage() {
+        return 0;
+    }
+
+    @Override
+    public int attack() {
         return 0;
     }
 }

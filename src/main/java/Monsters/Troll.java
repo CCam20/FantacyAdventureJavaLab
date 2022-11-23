@@ -1,7 +1,7 @@
 package Monsters;
 
 public class Troll extends Monster {
-    public Troll(String attack, double health, double armor) {
+    public Troll(int attack, double health, double armor) {
         super(attack, health, armor);
     }
 
@@ -13,5 +13,10 @@ public class Troll extends Monster {
     @Override
     public int takeDamage() {
         return 0;
+    }
+
+    @Override
+    public int attack() {
+        return getAttack();
     }
 }

@@ -1,7 +1,7 @@
 package Monsters;
 
 public class Ogre extends Monster{
-    public Ogre(String attack, double health, double armor) {
+    public Ogre(int attack, double health, double armor) {
         super(attack, health, armor);
     }
 
@@ -12,6 +12,11 @@ public class Ogre extends Monster{
 
     @Override
     public int takeDamage() {
+        return 0;
+    }
+
+    @Override
+    public int attack() {
         return 0;
     }
 }

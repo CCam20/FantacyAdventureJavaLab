@@ -1,5 +1,6 @@
 package Rooms;
 
+import Behaviours.IPlayer;
 import Monsters.Monster;
 
 import java.util.ArrayList;
@@ -7,6 +8,7 @@ import java.util.ArrayList;
 public abstract class Room {
 
     private ArrayList<Monster> monsters;
+    private ArrayList<IPlayer> players;
     int gold;
     int gems;
 
