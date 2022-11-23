@@ -1,6 +1,8 @@
 package Monsters;
 
-public abstract class Monster {
+import Behaviours.IHealth;
+
+public abstract class Monster implements IHealth {
     private String attack;
     private double health;
     private double armor;

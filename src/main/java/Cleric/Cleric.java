@@ -1,8 +1,10 @@
 package Cleric;
 
+import Behaviours.IHealth;
+
 import java.util.HashMap;
 
-public class Cleric {
+public class Cleric implements IHealth {
 
     private String healingTools;
     private double health;
@@ -15,5 +17,15 @@ public class Cleric {
         this.health = health;
         this.armor = armor;
         this.inventory = new HashMap<>();
+    }
+
+    @Override
+    public int heal() {
+        return 0;
+    }
+
+    @Override
+    public int takeDamage() {
+        return 0;
     }
 }

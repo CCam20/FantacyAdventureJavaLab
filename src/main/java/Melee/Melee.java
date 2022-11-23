@@ -1,8 +1,10 @@
 package Melee;
 
+import Behaviours.IHealth;
+
 import java.util.HashMap;
 
-public abstract class Melee {
+public abstract class Melee implements IHealth {
 
     private String weapons;
     private double health;

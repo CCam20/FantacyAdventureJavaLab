@@ -1,8 +1,10 @@
 package Spellcaster;
 
+import Behaviours.IHealth;
+
 import java.util.HashMap;
 
-public abstract class SpellCaster {
+public abstract class SpellCaster implements IHealth {
 
     private String spells;
     private double health;
