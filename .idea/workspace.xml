@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fabd64fc-4053-4405-bc0f-4c52a65ccaaa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Behaviours/IAttack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Behaviours/IPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BarbarianTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cleric/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cleric/Cleric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Melee/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Melee/Barbarian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Melee/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Melee/Dwarf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Melee/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Melee/Knight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Melee/Melee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Melee/Melee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behaviours/HealingTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Player/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PlayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Behaviours/IHealth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Behaviours/IHealth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Behaviours/IPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Behaviours/Spells.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Behaviours/Spells.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cleric/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Cleric/Cleric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Melee/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Melee/Barbarian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Melee/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Melee/Dwarf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Melee/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Melee/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Melee/Melee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Melee/Melee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Monsters/DemiGorgon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Monsters/DemiGorgon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Monsters/Dragon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Monsters/Dragon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Monsters/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Monsters/Monster.java" afterDir="false" />
@@ -21,9 +24,10 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/Monsters/Orc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Monsters/Orc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Monsters/Troll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Monsters/Troll.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Rooms/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Rooms/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Spellcaster/SpellCaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spellcaster/SpellCaster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Spellcaster/Warlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spellcaster/Warlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Spellcaster/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spellcaster/Wizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Spellcaster/SpellCaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Spellcaster/SpellCaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Spellcaster/Warlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Spellcaster/Warlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Spellcaster/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Spellcaster/Wizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BarbarianTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BarbarianTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +37,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -62,11 +66,49 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Player.Cleric" />
       <recent name="Melee" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PlayerTest.clericCanHealPlayer">
+    <configuration name="All in Fantacy_Adventure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantacy_Adventure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest.clericCanHealPlayer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantacy_Adventure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlayerTest" />
+      <option name="METHOD_NAME" value="clericCanHealPlayer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest.playerCanTakeDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantacy_Adventure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlayerTest" />
+      <option name="METHOD_NAME" value="playerCanTakeDamage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PlayerTest.clericCanHealPlayer" />
+        <item itemvalue="JUnit.All in Fantacy_Adventure" />
+        <item itemvalue="JUnit.PlayerTest.playerCanTakeDamage" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -89,5 +131,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Player/Player.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

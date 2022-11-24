@@ -5,18 +5,15 @@ public class Dragon extends Monster {
         super(attack, health, armor);
     }
 
+//    @Override
+//    public int heal() {
+//        return 0;
+//    }
+
     @Override
-    public int heal() {
+    public double takeDamage(double damage) {
         return 0;
     }
 
-    @Override
-    public int takeDamage() {
-        return 0;
-    }
 
-    @Override
-    public int attack() {
-        return 0;
-    }
 }

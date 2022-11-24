@@ -1,4 +1,4 @@
-package Melee;
+package Player.Melee;
 
 import Behaviours.Weapons;
 
@@ -9,18 +9,14 @@ public class Barbarian extends Melee{
         super(weapons, health, armor, inventory);
     }
 
-    @Override
-    public int heal() {
-        return 0;
-    }
+//    public double heal(int healPoints) {
+//        return this.health + healPoints;
+//    }
 
-    @Override
-    public int takeDamage() {
-        return 0;
-    }
+//    @Override
+//    public double attack() {
+//        return getWeapons().getDamage();
+//    }
 
-    @Override
-    public int attack() {
-        return getWeapons().getDamage();
-    }
+
 }

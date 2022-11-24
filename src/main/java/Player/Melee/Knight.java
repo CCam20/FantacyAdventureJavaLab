@@ -1,4 +1,4 @@
-package Melee;
+package Player.Melee;
 
 import Behaviours.Weapons;
 
@@ -11,18 +11,8 @@ public class Knight extends Melee{
         super(weapons, health, armor, inventory);
     }
 
-    @Override
-    public int heal() {
-        return 0;
-    }
-
-    @Override
-    public int takeDamage() {
-        return 0;
-    }
-
-    @Override
-    public int attack() {
-        return 0;
-    }
+//    @Override
+//    public int heal() {
+//        return 0;
+//    }
 }

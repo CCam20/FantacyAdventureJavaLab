@@ -2,6 +2,6 @@ package Behaviours;
 
 public interface IHealth {
 
-    int heal();
-    int takeDamage();
+//    int heal();
+    double takeDamage(double damage);
 }
